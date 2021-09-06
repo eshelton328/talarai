@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar.js';
 const Contact = () => {
 	return (
 		<div>
-			<NavBar />
+			<NavBar curr={'contact'} />
 			This is the contact page.
 		</div>
 	);

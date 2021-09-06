@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar.js';
 const Functionality = () => {
 	return (
 		<div>
-			<NavBar />
+			<NavBar curr={'funcly'} />
 			This is the functionality page.
 		</div>
 	);

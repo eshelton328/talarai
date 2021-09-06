@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar.js';
 const Services = () => {
 	return (
 		<div>
-			<NavBar />
+			<NavBar curr={'serv'} />
 			This is the services page.
 		</div>
 	);

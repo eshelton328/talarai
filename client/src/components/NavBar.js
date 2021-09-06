@@ -6,7 +6,26 @@ import {
 } from 'react-bootstrap';
 import Logo from '../assets/img/logo.jpeg'
 
-const NavBar = () => {
+let home = {};
+let about = {};
+let serv = {};
+let funcly = {};
+let contact = {};
+
+const NavBar = ({ curr }) => {
+
+  // changing color of active page link
+  if (curr === 'home') {
+    home = {color: '#FEE247'}
+  } else if (curr === 'about') {
+    about = {color: '#FEE247'}
+  } else if (curr === 'serv') {
+    serv = {color: '#FEE247'};
+  } else if (curr === 'funcly') {
+    funcly = {color: '#FEE247'};
+  } else {
+    contact = {color: '#FEE247'};
+  }
 
   return (
     <Navbar expand='md'>
@@ -22,19 +41,19 @@ const NavBar = () => {
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav className="justify-content-end">
             <Nav.Item>
-              <Nav.Link href='/'>Home</Nav.Link>
+              <Nav.Link style={home} href='/'>Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='/about'>About</Nav.Link>
+              <Nav.Link style={about} href='/about'>About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='/services'>Services</Nav.Link>
+              <Nav.Link style={serv} href='/services'>Services</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='/functionality'>Functionality</Nav.Link>
+              <Nav.Link style={funcly} href='/functionality'>Functionality</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='/contact'>Contact</Nav.Link>
+              <Nav.Link style={contact} href='/contact'>Contact</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
