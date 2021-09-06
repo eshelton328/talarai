@@ -6,8 +6,9 @@ import {
 } from 'react-bootstrap';
 
 const NavBar = () => {
+
   return (
-    <Navbar expand='sm' bg='light'>
+    <Navbar expand='sm'>
       <Container>
         <Navbar.Brand>
           Logo
