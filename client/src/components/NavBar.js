@@ -4,14 +4,19 @@ import {
   Nav,
   Container
 } from 'react-bootstrap';
+import Logo from '../assets/img/logo.jpeg'
 
 const NavBar = () => {
 
   return (
-    <Navbar expand='sm'>
+    <Navbar expand='md'>
       <Container>
         <Navbar.Brand>
-          Logo
+          <img
+            src={Logo}
+            className="d-inline-block align-top logo"
+            alt=""
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
