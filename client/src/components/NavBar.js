@@ -29,7 +29,7 @@ const NavBar = () => {
               <Nav.Link href='/functionality'>Functionality</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href='/contact'>Conctact</Nav.Link>
+              <Nav.Link href='/contact'>Contact</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
