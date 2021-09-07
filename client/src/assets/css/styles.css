@@ -1,3 +1,8 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 /* navbar */
 .navbar {
   background-color: #1A1441;
@@ -57,4 +62,14 @@
 .footer a {
   color: white;
   font-weight: bold;
+}
+
+/* Home Page */
+.home-page {
+  background-image: url('../img/skyline.jpeg');
+  /* background-color: aqua; */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
