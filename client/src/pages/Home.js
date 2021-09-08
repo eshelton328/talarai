@@ -2,10 +2,10 @@ import React from 'react';
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
 import InfoCardStack from '../components/InfoCardStack.js';
-import Phone from '../assets/img/phone.jpg';
-import QR from '../assets/img/qrcode.jpg';
-import Gear from '../assets/img/gear.jpg'
-import Skyline from '../assets/img/skyline.jpg';
+import Phone from '../assets/img/phone.jpeg';
+import QR from '../assets/img/qrcode.jpeg';
+import Gear from '../assets/img/gear.jpeg'
+import Skyline from '../assets/img/skyline.jpeg';
 
 function Info(title, data, img) {
 	this.title = title;
@@ -21,11 +21,10 @@ const advisor = new Info('Advisor', 'We are an 51% disabled veteran-owned busine
 
 const data = [partner, supplier, advisor];
 
-// style={{ backgroundImage: `url(${Skyline})` }}
 
 const Home = () => {
 	return (
-		<div className='home-page'>
+		<div style={{ backgroundImage: `url(${Skyline})` }} className='home-page'>
 			<NavBar curr={'home'} />
 			<InfoCardStack cardInfo={data} />
 			<Footer />

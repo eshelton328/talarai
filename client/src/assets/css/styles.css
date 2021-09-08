@@ -70,7 +70,7 @@ body, html {
 .home-page {
   /* background-color: aqua; */
   height: 100%;
-  /* background-position: center; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -83,7 +83,7 @@ body, html {
 
 .custom-card {
   width: 20rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1rem;;
 }
 
 @media screen and (max-width: 1000px) {
@@ -101,8 +101,8 @@ body, html {
   color: #3E4D5C;
 }
 
-.card-body {
-  padding-bottom: 2rem;
+.infocard-img {
+  padding-top: 1rem;
 }
 
 .center {

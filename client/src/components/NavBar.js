@@ -4,7 +4,9 @@ import {
   Nav,
   Container
 } from 'react-bootstrap';
-import Logo from '../assets/img/logo.jpg';
+import Logo from '../assets/img/logo.jpeg';
+// let Logo = document.createElement('img');
+// Logo.src = require('../assets/img/logo.png');
 
 let home = {};
 let about = {};

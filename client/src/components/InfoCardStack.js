@@ -11,9 +11,9 @@ const InfoCardStack = ({ cardInfo }) => {
     <div className="info-card-stack">
       <Container>
         <Row xs={1} sm={1} md={1} lg={3}>
-          {cardInfo.map((item) =>
-            <Col className="center">
-              <InfoCard info={item} />
+          {cardInfo.map((item, i) =>
+            <Col className="center" key={i}>
+              <InfoCard info={item} key={i} />
             </Col>
           )}
         </Row>
