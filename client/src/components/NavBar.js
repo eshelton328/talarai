@@ -4,7 +4,9 @@ import {
   Nav,
   Container
 } from 'react-bootstrap';
-import Logo from '../assets/img/logo.jpeg'
+import Logo from '../assets/img/logo.jpeg';
+// let Logo = document.createElement('img');
+// Logo.src = require('../assets/img/logo.png');
 
 let home = {};
 let about = {};
@@ -28,37 +30,39 @@ const NavBar = ({ curr }) => {
   }
 
   return (
-    <Navbar expand='md'>
-      <Container>
-        <Navbar.Brand>
-          <img
-            src={Logo}
-            className="d-inline-block align-top logo"
-            alt=""
-          />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-          <Nav className="justify-content-end">
-            <Nav.Item>
-              <Nav.Link style={home} href='/'>Home</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link style={about} href='/about'>About</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link style={serv} href='/services'>Services</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link style={funcly} href='/functionality'>Functionality</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link style={contact} href='/contact'>Contact</Nav.Link>
-            </Nav.Item>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div>
+      <Navbar expand='md'>
+        <Container>
+          <Navbar.Brand>
+            <img
+              src={Logo}
+              className="d-inline-block align-top logo"
+              alt=""
+            />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+            <Nav className="justify-content-end">
+              <Nav.Item>
+                <Nav.Link style={home} href='/'>Home</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={about} href='/about'>About</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={serv} href='/services'>Services</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={funcly} href='/functionality'>Functionality</Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={contact} href='/contact'>Contact</Nav.Link>
+              </Nav.Item>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
   );
 };
 
