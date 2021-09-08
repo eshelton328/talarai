@@ -1,6 +1,6 @@
 module.exports = {
 	entry: __dirname + '/client/index.js', // The entry point for the Application (Where ReactDOM.render is called)
-	mode: 'production', // change to 'production' before deploying
+	mode: 'development', // change to 'production' before deploying
 	module: {
 		rules: [
 			{

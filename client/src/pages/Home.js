@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
 import InfoCardStack from '../components/InfoCardStack.js';
+import LargeCardStack from '../components/LargeCardStack';
 import Phone from '../assets/img/phone.jpeg';
 import QR from '../assets/img/qrcode.jpeg';
 import Gear from '../assets/img/gear.jpeg'
@@ -27,6 +28,7 @@ const Home = () => {
 		<div style={{ backgroundImage: `url(${Skyline})` }} className='home-page'>
 			<NavBar curr={'home'} />
 			<InfoCardStack cardInfo={data} />
+			<LargeCardStack />
 			<Footer />
 		</div>
 	);

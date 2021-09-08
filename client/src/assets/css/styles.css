@@ -78,7 +78,7 @@ body, html {
 
 .info-card-stack {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .custom-card {
@@ -109,4 +109,14 @@ body, html {
   display: flex;
   justify-content: center;
   /* align-items: center; */
+}
+
+.lcs-row {
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.lcs-col {
+  border:  1px solid black;
 }
