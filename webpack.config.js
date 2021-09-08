@@ -18,15 +18,14 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
 			{
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
-      },
+				test: /\.(jpe?g|png|gif|svg)$/i,
+				loader: 'file-loader',
+				options: {
+					name: '/public/icons/[name].[ext]'
+				}
+			},
 			{
-        test: /\.(png|jpg|gif)$/i,
+        test: /\.(png|jpe?g|gif)$/i,
         use: [
           {
             loader: 'url-loader',

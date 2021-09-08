@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   Container,
   Row,
@@ -6,13 +6,13 @@ import {
 } from 'react-bootstrap';
 import InfoCard from './InfoCard.js';
 
-const Cards = ({ cardInfo }) => {
+const InfoCardStack = ({ cardInfo }) => {
   return (
-    <div>
-      <Container className='d-flex justify-content-center'>
-        <Row>
+    <div className="info-card-stack">
+      <Container>
+        <Row xs={1} sm={1} md={1} lg={3}>
           {cardInfo.map((item) =>
-            <Col className="container-fluid mt-1">
+            <Col className="center">
               <InfoCard info={item} />
             </Col>
           )}
@@ -22,4 +22,4 @@ const Cards = ({ cardInfo }) => {
   );
 };
 
-export default Cards;
+export default InfoCardStack;
