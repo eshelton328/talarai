@@ -20,6 +20,7 @@ const servs = new PageData('Services', 'The core strength of Talari, LLC lies in
 const data = {
 	cards: [partner, supplier, advisor],
 	info: [about, servs],
+	page: 'home',
 };
 
 

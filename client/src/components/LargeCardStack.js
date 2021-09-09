@@ -22,14 +22,14 @@ const LargeCardStack = ({ cardInfo }) => {
           </Col>
         </Row>
         <Row xs={1} sm={1} md={1} lg={2} className='lcs-row'>
-          <Col className='lcs-col lcs-text' id='text-col'>
+          <Col className='lcs-col lcs-img center'>
+            <Image src={cardInfo[1].img} fluid='true' />
+          </Col>
+          <Col className='lcs-col lcs-text'>
             <div>
               <h1>{cardInfo[1].title}</h1>
               <p>{cardInfo[1].data}</p>
             </div>
-          </Col>
-          <Col className='lcs-col lcs-image center' id='img-col'>
-            <Image src={cardInfo[1].img} fluid='true' />
           </Col>
         </Row>
       </Container>
