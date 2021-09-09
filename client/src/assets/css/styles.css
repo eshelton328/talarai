@@ -140,15 +140,6 @@ body, html {
 }
 
 .lcs-text {
-  order: 2;
-  padding-bottom: 3rem;
-}
-
-#img-col {
-  order: 1;
-  padding-bottom: 3rem;
-}
-
-#text-col {
-  order: 2;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }

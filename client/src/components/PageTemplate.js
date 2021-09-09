@@ -8,7 +8,7 @@ import Skyline from '../assets/img/skyline.jpeg';
 const PageTemplate = ({ content }) => {
 	return (
 		<div style={{ backgroundImage: `url(${Skyline})` }} className='home-page'>
-			<NavBar curr={'home'} />
+			<NavBar curr={content.page} />
 			<InfoCardStack cardInfo={content.cards} />
 			<LargeCardStack cardInfo={content.info} />
 			<Footer />
