@@ -149,6 +149,7 @@ body, html {
   margin-top: 3rem;
   margin-bottom: 4rem;
   font-size: 45px;
+  font-family: Fugaz One;
 }
 
 /*Styles for components in About Us Page*/
@@ -179,4 +180,13 @@ body, html {
 
 .about-text {
   padding: 1rem;
+}
+
+.serv-row {
+  margin-bottom: 3rem;
+}
+
+.serv-img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;;
 }
