@@ -7,9 +7,9 @@ import Key from '../assets/img/key.jpeg';
 import Eagle from '../assets/img/eagle.jpeg';
 import Drone from '../assets/img/drone.jpeg';
 
-const tele = new PageData('Telecommunications and Network Services', 'We offer cost-effective telecommunications products and services, whether you&#39;re a local government or a large federal department or a school, call center, or small business. Choose from specialized services like satellite, or a total custom solution for your agency, call center or campus.', Globe);
+const tele = new PageData("Telecommunications and Network Services", "We offer cost-effective telecommunications products and services, whether you're a local government or a large federal department or a school, call center, or small business. Choose from specialized services like satellite, or a total custom solution for your agency, call center or campus.", Globe);
 
-const iT = new PageData('IT Security', 'Get customizable cybersecurity products and services to help you enhance your agency&#39s security, improve resilience, protect the information, and bring your systems into the 21st century. We specialize in Security Solutions, Vulnerability Prevention, and Security Analysis.', Lock);
+const iT = new PageData('IT Security', "Get customizable cybersecurity products and services to help you enhance your agency's security, improve resilience, protect the information, and bring your systems into the 21st century. We specialize in Security Solutions, Vulnerability Prevention, and Security Analysis.", Lock);
 
 const softServ = new PageData('IT Software and IT Services', 'Our solutions include infrastructure software, enterprise application software, and licensing and maintenance. iSaaS, ERP, CRM, and much more. We have over 200 years combined IT experience and can find the best  consulting and outsourcing professionals for IT services needs.', Key);
 
