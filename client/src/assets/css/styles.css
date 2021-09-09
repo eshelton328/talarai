@@ -66,7 +66,7 @@ body, html {
   font-weight: bold;
 }
 
-/* Home Page */
+/* Styles for components used in Home page and Functionality page (PageTemplate.js) */
 .home-page {
   /* background-color: aqua; */
   height: 100%;
@@ -142,4 +142,33 @@ body, html {
 .lcs-text {
   padding-top: 1rem;
   padding-bottom: 2rem;
+}
+
+/*Style for Page Title Component*/
+.page-title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 40px;
+}
+
+/*Styles for components in About Us Page*/
+
+.about-row {
+  border: 1px solid black;
+  margin-bottom: 3rem;
+}
+
+.about-col {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.about-name {
+  font-size: 25px;
+}
+
+.about-pos {
+  font-size: 20px;
 }

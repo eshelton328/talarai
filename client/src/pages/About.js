@@ -1,7 +1,9 @@
 import React from 'react';
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
+import PageTitle from '../components/PageTitle.js';
 import AboutCard from '../components/AboutCard.js';
+import PageData from '../lib/pageData.js';
 import {
   Container,
   Row,
@@ -13,9 +15,8 @@ const About = () => {
 		<div>
 			<NavBar curr={'about'} />
 			<Container>
-				<Row>
-					<Col>About US</Col>
-				</Row>
+				<PageTitle title={'About Us'} />
+				<AboutCard />
 				<AboutCard />
 			</Container>
 			<Footer />
