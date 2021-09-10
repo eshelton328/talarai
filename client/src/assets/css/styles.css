@@ -61,9 +61,20 @@ body, html {
   left: 0;
   width: 100%;
 }
+
 .footer a {
   color: white;
   font-weight: bold;
+}
+
+.footer-text {
+  padding-left: 2rem;
+}
+
+.footer-img {
+  padding-right: 2rem;
+  display: flex;
+  justify-content: end;
 }
 
 /* Styles for components used in Home page and Functionality page (PageTemplate.js) */
