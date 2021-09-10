@@ -190,3 +190,16 @@ body, html {
   margin-top: 3rem;
   margin-bottom: 3rem;;
 }
+
+ul {
+  list-style: none;
+}
+
+.contact-container {
+  margin-bottom: 5rem;
+}
+
+.news-letter {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
