@@ -43,10 +43,30 @@ const Contact = () => {
 	return (
 		<div>
 			<NavBar curr={'contact'} />
-			<PageTitle title={'Contact'} />
 			<Container className='contact-container'>
+				<PageTitle title={'Contact'} />
+				<Row>
+					<Col xs={2} sm={2} md={2} lg={2} className='contact-pos'>
+						<div>Engineering</div>
+						<div>Administration</div>
+						<div>Operations</div>
+						<div>Management</div>
+						<div>General</div>
+						<div>Partnerships</div>
+						<div>Direct Assistance</div>
+					</Col>
+					<Col>
+						<div>Lucca@talarai.com</div>
+						<div>Ben@talarai.com</div>
+						<div>Marvina@talarai.com</div>
+						<div>Tucker@talarai.com</div>
+						<div>info@talarai.com</div>
+						<div>Ivana@talarai.com</div>
+						<div>&#40;512&#41; 399-9521</div>
+					</Col>
+				</Row>
 				<Form noValidate validated={validated} onSubmit={handleSubmit}>
-					<Row className="mb-3">
+					<Row className="mb-3 form-row">
 						<Form.Group as={Col}>
 							<Form.Label>First Name</Form.Label>
 							<Form.Control
@@ -111,7 +131,7 @@ const Contact = () => {
 							<Form.Control
 								required
 								as="textarea"
-								rows={8}
+								rows={5}
 								placeholder='Your message'
 								onChange={(e) => {
 									setMessage(e.target.value);

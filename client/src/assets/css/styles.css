@@ -76,11 +76,6 @@ body, html {
   background-attachment: fixed;
 }
 
-.info-card-stack {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .custom-card {
   width: 20rem;
   padding-bottom: 1rem;
@@ -100,6 +95,11 @@ body, html {
   font-family: Fugaz One;
   font-size: 25px;
   color: #3E4D5C;
+}
+
+.info-card-stack {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .infocard-img {
@@ -139,6 +139,11 @@ body, html {
   padding-bottom: 3rem;
 }
 
+.lcs-title {
+  font-family: Fugaz One;
+  color: #1A1441;
+}
+
 .lcs-text {
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -146,10 +151,11 @@ body, html {
 
 /*Style for Page Title Component*/
 .page-title {
-  margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   font-size: 45px;
   font-family: Fugaz One;
+  color: #1A1441;
 }
 
 /*Styles for components in About Us Page*/
@@ -167,11 +173,15 @@ body, html {
 }
 
 .about-name {
+  font-family: Fugaz One;
   font-size: 25px;
+  color: #1A1441;
 }
 
 .about-pos {
   font-size: 20px;
+  color: #3E4D5C;
+  font-weight: bold;
 }
 
 .about-img {
@@ -199,7 +209,16 @@ ul {
   margin-bottom: 5rem;
 }
 
+.form-row {
+  margin-top: 1.2rem;
+}
+
 .news-letter {
   margin-top: .5rem;
   margin-bottom: .5rem;
+}
+
+.contact-pos {
+  width: 10rem;
+  font-weight: bold;
 }

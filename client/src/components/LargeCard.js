@@ -13,7 +13,7 @@ const LargeCard = ({ info }) => {
       </Col>
       <Col className='lcs-col lcs-text'>
         <div>
-          <h1>{info.title}</h1>
+          <h1 className='lcs-title'>{info.title}</h1>
           <p>{info.data}</p>
         </div>
       </Col>
