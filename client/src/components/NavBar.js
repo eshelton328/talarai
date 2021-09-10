@@ -33,7 +33,7 @@ const NavBar = ({ curr }) => {
     <div>
       <Navbar expand='md'>
         <Container>
-          <Navbar.Brand>
+          <Navbar.Brand href='/'>
             <img
               src={Logo}
               className="d-inline-block align-top logo"
