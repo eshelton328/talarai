@@ -28,7 +28,7 @@ const Contact = () => {
 						<div>Partnerships</div>
 						<div>Direct Assistance</div>
 					</Col>
-					<Col>
+					<Col className='contact-emails'>
 						<div>Lucca@talarai.com</div>
 						<div>Ben@talarai.com</div>
 						<div>Marvina@talarai.com</div>

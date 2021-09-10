@@ -220,5 +220,10 @@ ul {
 
 .contact-pos {
   width: 10rem;
+  color: #1A1441;
   font-weight: bold;
+}
+
+.contact-emails {
+  font-family: monospace;
 }
