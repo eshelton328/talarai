@@ -3,10 +3,12 @@ import NavBar from '../components/NavBar.js';
 import PageTitle from '../components/PageTitle.js';
 import Footer from '../components/Footer.js';
 import Departments from '../assets/img/departments.jpeg'
+import Capabilities from '../assets/img/capabilities.jpeg'
 import {
 	Container,
 	Row,
 	Col,
+	Button,
 	Card,
 } from 'react-bootstrap'
 
@@ -16,6 +18,11 @@ const Services = () => {
 			<NavBar curr={'serv'} />
 			<Container>
 				<PageTitle title={'Services'} />
+				<Row className='work-btn'>
+					<Col className='center'>
+						<Button href='/contact' target="_blank" rel="noopener noreferrer">Capabilities</Button>
+					</Col>
+				</Row>
 				<Row xs={1} sm={1} md={1} lg={1} className='serv-row'>
 					<Col className='center'>Our staff has experience working in the following countries: South Africa, U.S., Oman, Qatar, Saudi Arabia, Egypt, Turkey, UAE, Iraq, Afghanistan, Curacao, Aruba, Ecuador, Uruguay, Argentina, United Kingdom, Germany, Netherlands, and more. Below is a sample of some of the Agencies, Clients, and Companies that our personnel has worked with:</Col>
 					<Col className='center serv-img'>
