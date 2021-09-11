@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavBar from '../components/NavBar.js';
 import PageTitle from '../components/PageTitle.js';
 import CapabilitiesModal from '../components/CapabilitiesModal.js';
@@ -15,6 +15,10 @@ import {
 const Services = () => {
 
 	const [modalShow, setModalShow] = React.useState(false);
+
+	useEffect(() => {
+    document.title = 'Services';
+  }, []);
 
 	return (
 		<div>

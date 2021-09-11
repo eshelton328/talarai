@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavBar from '../components/NavBar.js';
 import Footer from '../components/Footer.js';
 import PageTitle from '../components/PageTitle.js';
@@ -20,6 +20,11 @@ const marvina = new PageData(['Marvina Case', 'Head of Global Operations & Co-Fo
 const data = [tucker, marvina];
 
 const About = () => {
+
+	useEffect(() => {
+    document.title = 'About Us';
+  }, []);
+
 	return (
 		<div>
 			<NavBar curr={'about'} />

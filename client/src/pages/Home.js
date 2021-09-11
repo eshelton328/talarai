@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PageData from '../lib/pageData.js';
 import PageTemplate from '../components/PageTemplate';
 import Phone from '../assets/img/phone.jpeg';
@@ -25,6 +25,11 @@ const data = {
 
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title = 'Home';
+  }, []);
+
 	return (
 		<PageTemplate content={data} />
 	);
