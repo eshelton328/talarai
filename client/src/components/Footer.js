@@ -20,7 +20,7 @@ const Footer = () => {
             Austin, TX. 78741
           </Col>
           <Col className='footer-img'>
-            <Image src={SDVOSB} style={{width: '4rem'}} roundedCircle='true' />
+            <Image src={SDVOSB} style={{width: '4rem', height: '5rem'}} roundedCircle='true' />
           </Col>
         </Row>
       </Container>
