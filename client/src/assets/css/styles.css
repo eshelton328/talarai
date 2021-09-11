@@ -191,12 +191,10 @@ body, html {
   border-color: #FEE247;
 }
 
-
 .about-col {
   /* border: 1px solid black; */
   display: flex;
   align-items: center;
-  padding-left: 3rem;
 }
 
 .about-name {
