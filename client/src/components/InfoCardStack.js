@@ -8,11 +8,11 @@ import InfoCard from './InfoCard.js';
 
 const InfoCardStack = ({ cardInfo }) => {
   return (
-    <div className="info-card-stack">
+    <div className='info-card-stack'>
       <Container>
         <Row xs={1} sm={1} md={1} lg={3}>
           {cardInfo.map((item, i) =>
-            <Col className="center" key={i}>
+            <Col className='center' key={i}>
               <InfoCard info={item} key={i} />
             </Col>
           )}

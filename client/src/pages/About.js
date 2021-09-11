@@ -22,7 +22,7 @@ const data = [tucker, marvina];
 const About = () => {
 
 	useEffect(() => {
-    document.title = "About Us";
+    document.title = 'About Us';
   }, []);
 
 	return (

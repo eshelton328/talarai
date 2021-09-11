@@ -36,13 +36,13 @@ const NavBar = ({ curr }) => {
           <Navbar.Brand href='/'>
             <img
               src={Logo}
-              className="d-inline-block align-top logo"
-              alt=""
+              className='d-inline-block align-top logo'
+              alt=''
             />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-            <Nav className="justify-content-end">
+          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          <Navbar.Collapse className='justify-content-end' id='basic-navbar-nav'>
+            <Nav className='justify-content-end'>
               <Nav.Item>
                 <Nav.Link style={home} href='/'>Home</Nav.Link>
               </Nav.Item>

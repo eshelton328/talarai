@@ -10,7 +10,7 @@ const AboutCard = ({ content }) => {
   return (
     <Row xs={1} sm={1} md={1} lg={2} className='about-row'>
       <Col className='about-col center'>
-        <Image src={content.img} style={{width: "25rem"}} className='about-img' roundedCircle='true'/>
+        <Image src={content.img} style={{width: '25rem'}} className='about-img' roundedCircle='true'/>
       </Col>
       <Col className='about-col about-text'>
         <div>

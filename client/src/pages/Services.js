@@ -17,7 +17,7 @@ const Services = () => {
 	const [modalShow, setModalShow] = React.useState(false);
 
 	useEffect(() => {
-    document.title = "Services";
+    document.title = 'Services';
   }, []);
 
 	return (

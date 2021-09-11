@@ -27,7 +27,7 @@ const data = {
 const Home = () => {
 
   useEffect(() => {
-    document.title = "Home";
+    document.title = 'Home';
   }, []);
 
 	return (

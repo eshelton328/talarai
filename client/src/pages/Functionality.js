@@ -26,7 +26,7 @@ const data = {
 const Functionality = () => {
 
 	useEffect(() => {
-    document.title = "Functionality";
+    document.title = 'Functionality';
   }, []);
 
 	return (

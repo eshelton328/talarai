@@ -14,7 +14,7 @@ import {
 const Contact = () => {
 
 	useEffect(() => {
-    document.title = "Contact";
+    document.title = 'Contact';
   }, []);
 
 	return (
