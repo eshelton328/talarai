@@ -15,6 +15,4 @@ app.get('/*', function(req, res) {
   })
 });
 
-app.listen(PORT, () => {
-	console.log('Serving up now at ' + JSON.stringify(PORT));
-});
+app.listen(process.env.PORT || 3000);
