@@ -176,6 +176,22 @@ body, html {
   margin-bottom: 3rem;
 }
 
+.work-btn {
+  margin-bottom: 3rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1A1441;
+    border-color: #1A1441;
+}
+
+.btn-primary:hover {
+  color: #1A1441;
+  background-color: #FEE247;
+  border-color: #FEE247;
+}
+
+
 .about-col {
   /* border: 1px solid black; */
   display: flex;
@@ -225,8 +241,8 @@ ul {
 }
 
 .news-letter {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .contact-pos {

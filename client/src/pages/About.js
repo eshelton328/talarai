@@ -10,6 +10,7 @@ import {
   Container,
   Row,
   Col,
+	Button
 } from 'react-bootstrap';
 
 const tucker = new PageData(['Tucker Sulzberger', 'CEO & Co-Founder'], ['Tucker Sulzberger is a Founding Partner and majority owner of Talarai, LLC.  His tenure as a United States Army Veteran with over ten years of proven leadership skills has contributed to this thriving business venture. He commanded a CH-47F helicopter company at the pinnacle of his Army career. He has an uncanny ability to develop highly adaptive and unified teams.', 'Tucker is a graduate of the University of Iowa, where he studied Kinesiology and adapted a highly regimented healthy lifestyle. While studying at the university, he was the captain of the division 1 rugby team and attended Reserve Officer Training Corps after completing basic infantry training. He was awarded Cadet of the year from the Iowa  National Guard and recognized as a distinguished military graduate for being in the top 20% in the country.'], Tucker);
@@ -24,6 +25,11 @@ const About = () => {
 			<NavBar curr={'about'} />
 			<Container>
 				<PageTitle title={'About Us'} />
+				<Row className='work-btn'>
+					<Col className='center'>
+						<Button href='/contact'>Work with Talarai</Button>
+					</Col>
+				</Row>
 				{data.map((item, i) =>
 					<AboutCard content={item} key={i} />
 				)}
