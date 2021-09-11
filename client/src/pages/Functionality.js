@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PageData from '../lib/pageData';
 import PageTemplate from '../components/PageTemplate';
 import Globe from '../assets/img/globe.jpeg';
@@ -24,6 +24,11 @@ const data = {
 };
 
 const Functionality = () => {
+
+	useEffect(() => {
+    document.title = "Functionality";
+  }, []);
+
 	return (
 		<PageTemplate content={data} />
 	);

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import NavBar from '../components/NavBar.js';
 import PageTitle from '../components/PageTitle.js';
 import ContactForm from '../components/ContactForm.js';
@@ -12,6 +12,10 @@ import {
 } from 'react-bootstrap';
 
 const Contact = () => {
+
+	useEffect(() => {
+    document.title = "Contact";
+  }, []);
 
 	return (
 		<div>
