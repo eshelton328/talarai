@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from '../components/NavBar.js';
 import PageTitle from '../components/PageTitle.js';
+import CapabilitiesModal from '../components/CapabilitiesModal.js';
 import Footer from '../components/Footer.js';
 import Departments from '../assets/img/departments.jpeg'
-import Capabilities from '../assets/img/capabilities.jpeg'
 import {
 	Container,
 	Row,
@@ -13,6 +13,9 @@ import {
 } from 'react-bootstrap'
 
 const Services = () => {
+
+	const [modalShow, setModalShow] = React.useState(false);
+
 	return (
 		<div>
 			<NavBar curr={'serv'} />
@@ -20,9 +23,15 @@ const Services = () => {
 				<PageTitle title={'Services'} />
 				<Row className='work-btn'>
 					<Col className='center'>
-						<Button href='/contact' target="_blank" rel="noopener noreferrer">Capabilities</Button>
+						<Button onClick={() => setModalShow(true)}>
+							Capabilities
+						</Button>
 					</Col>
 				</Row>
+				<CapabilitiesModal
+					show={modalShow}
+					onHide={() => setModalShow(false)}
+				/>
 				<Row xs={1} sm={1} md={1} lg={1} className='serv-row'>
 					<Col className='center'>Our staff has experience working in the following countries: South Africa, U.S., Oman, Qatar, Saudi Arabia, Egypt, Turkey, UAE, Iraq, Afghanistan, Curacao, Aruba, Ecuador, Uruguay, Argentina, United Kingdom, Germany, Netherlands, and more. Below is a sample of some of the Agencies, Clients, and Companies that our personnel has worked with:</Col>
 					<Col className='center serv-img'>
