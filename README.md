@@ -3,7 +3,7 @@ A remake of Talarai's website: https://www.talarai.com/
 
 ## Tech Frameworks Used
 **Built With**
-* React
+* React/React-Router
 * React-bootstrap
 * Express
 
